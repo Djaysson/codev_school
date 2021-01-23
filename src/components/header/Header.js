@@ -1,6 +1,7 @@
 import React from 'react';
 import { Headers, NavItem, ButtonApp } from "./styles";
 import logoImg from '../../image/logo.png';
+
 function Header() {
   return (
     <Headers>
@@ -13,7 +14,6 @@ function Header() {
 
         <ButtonApp>Get the APP</ButtonApp>
       </NavItem>
-
     </Headers>
   );
 }

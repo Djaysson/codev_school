@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Headers = styled.div`
-background-color:#100942;
+background-color:#2A1356;
 display:flex;
 align-items:center;
 justify-content:space-between;
