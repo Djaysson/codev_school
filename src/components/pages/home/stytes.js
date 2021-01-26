@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+display:flex;
+flex-direction:column;
 position:absolute;
 width:100vw;
 height:100vh;
@@ -13,7 +15,7 @@ z-index: -1;
 
 }
 `;
-export const ContainerTitles = styled.div`
+export const ContainerHome = styled.div`
 width:40vw;
 display:block;
 line-height:20px;

@@ -5,7 +5,7 @@ background-color:#2A1356;
 display:flex;
 align-items:center;
 justify-content:space-between;
-width:100%;
+width:100vw;
 height:70px;
 
 img{

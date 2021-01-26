@@ -1,13 +1,15 @@
 import React from 'react';
-import { Container, ButtonAp, ContainerTitles } from "./stytes";
+import { Container, ButtonAp, ContainerHome } from "./stytes";
 import backgroudImg from '../../../image/background.png';
+import Content from '../content/Content';
 
 
 function Home() {
   return (
+
     <Container>
       <img src={backgroudImg} alt="background" />
-      <ContainerTitles>
+      <ContainerHome>
         <h1>Become a</h1>
         <h1>Expert</h1>
         <h2>Developer</h2>
@@ -17,9 +19,11 @@ function Home() {
           to tell them. For free in aur app!
       </p>
         <ButtonAp>Enroll on the Free course</ButtonAp>
-      </ContainerTitles>
+      </ContainerHome>
 
+      <Content />
     </Container>
+
   );
 }
 
