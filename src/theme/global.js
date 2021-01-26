@@ -1,5 +1,12 @@
+import { createGlobalStyle } from 'styled-components';
+
+const Global = createGlobalStyle`
 body {
   margin: 0;
+  padding: 0;
+  background-color:#190246;
+  overflow-x: hidden;
+  height:100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +18,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+`;
+
+
+
+
+export default Global;

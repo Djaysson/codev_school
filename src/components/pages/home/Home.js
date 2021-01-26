@@ -14,9 +14,11 @@ function Home() {
         <h1>Expert</h1>
         <h2>Developer</h2>
         <p>
-          Join our Experts School for families
-          to learn everything about staries and how
-          to tell them. For free in aur app!
+          Join our Codev School Specialists in
+          software development to stay on top of
+          all the technologies of the moment and
+          learn everything about the web, mobile
+          world.
       </p>
         <ButtonAp>Enroll on the Free course</ButtonAp>
       </ContainerHome>

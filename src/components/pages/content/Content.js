@@ -6,20 +6,22 @@ function Content() {
   return (
     <ContainerContent>
       <Contents>
-        <Title> <FaRegDotCircle size={20} color="#FE6C4D" />{' '} What is it about?</Title>
+        <Title> <FaRegDotCircle size={20} color="#FE6C4D" />{' '} What the school is committed to doing?</Title>
         <Paragraph>
-
-          There are many variations of passages of Lorem Ipsum
-          available, but the majority have suffered alteration in some.
+          Codev is committed to teaching and
+          creating and developing software for
+          the real world, always with the objective
+          of helping its students to learn efficiently.
         </Paragraph>
 
       </Contents>
       <Contents>
-        <Title> <FaRegDotCircle size={20} color="#FE6C4D" />{' '}What is it for?</Title>
+        <Title> <FaRegDotCircle size={20} color="#FE6C4D" />{' '}What courses are available?</Title>
         <Paragraph>
-
-          There are many variations of passages of Lorem Ipsum
-          available, but the majority have suffered alteration in some.
+          Front End development course,
+          Backend development course,
+          Mobile development course,
+          full stack development course.
         </Paragraph>
       </Contents>
     </ContainerContent>
