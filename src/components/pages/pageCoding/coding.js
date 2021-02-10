@@ -29,6 +29,7 @@ function Coding() {
       </ContainerCoding>
       <LinkIcons />
       <About />
+
     </React.Fragment>
 
   );
